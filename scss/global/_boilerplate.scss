@@ -1,0 +1,29 @@
+@use "../util" as u;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  border: 0;
+  border-style: none;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  font-family: u.$InterFont;
+  font-size: 15px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Very-dark-blue-background);
+}

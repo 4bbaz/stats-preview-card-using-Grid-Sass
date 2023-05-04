@@ -1,0 +1,14 @@
+@use "../util" as u;
+h1 {
+  margin: 0;
+  font-weight: u.$fw-700;
+  color: var(--White-heading-stats);
+}
+
+p {
+  font-family: u.$LexendFont;
+  margin-top: 0;
+  font-weight: u.$fw-400;
+  color: var(--Slightly-transparent-white-paragraph);
+  line-height: 1.5;
+}
