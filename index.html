@@ -21,14 +21,17 @@
     <title>Stats Preview Card</title>
   </head>
   <body>
-    <main class="container">
-      <picture>
-        <source
-          srcset="./images/image-header-desktop.jpg"
-          media="(min-width: 600px)"
-        />
-        <img src="./images/image-header-mobile.jpg" alt="pic" />
-      </picture>
+    <main class="card">
+      <div class="image-area">
+        <picture>
+          <source
+            srcset="./images/image-header-desktop.jpg"
+            media="(min-width: 600px)"
+          />
+          <img src="./images/image-header-mobile.jpg" alt="pic" />
+        </picture>
+        <div class="bgcolor"></div>
+      </div>
 
       <div class="details">
         <h1>Get <span>insights </span> that help your business grow.</h1>
@@ -38,15 +41,15 @@
         </p>
         <div class="datarow">
           <div class="data">
-            <h1>10k+</h1>
+            <h2>10k+</h2>
             <p>COMPANIES</p>
           </div>
           <div class="data">
-            <h1>314</h1>
+            <h2>314</h2>
             <p>TEMPLATES</p>
           </div>
           <div class="data">
-            <h1>12M+</h1>
+            <h2>12M+</h2>
             <p>QUERIES</p>
           </div>
         </div>

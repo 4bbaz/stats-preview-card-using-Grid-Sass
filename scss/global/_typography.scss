@@ -1,5 +1,5 @@
 @use "../util" as u;
-h1 {
+h1,h2 {
   margin: 0;
   font-weight: u.$fw-700;
   color: var(--White-heading-stats);
